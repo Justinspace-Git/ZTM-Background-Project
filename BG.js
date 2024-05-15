@@ -7,8 +7,7 @@ let body = document.getElementById('gradient');
 
 
 function changeColor() {
-    body.style.background = "linear-gradient(to right, " + color1.value 
-    + "," + color2.value + ")";
+    body.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
     css.textContent = body.style.background + ";";
 }
 
